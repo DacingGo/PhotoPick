@@ -22,13 +22,8 @@
 
 ## 版本说明
 ### 1.2.1
-* 优化部分代码。
-
 
 ## 使用说明
-
-### 步骤一：
-本开源代码以关联到 [`jitpack`](https://jitpack.io/#YancyYe/GalleryPick) 网站 ，使用者可以用以下几种方式进行抓取。
 
 
 #### 通过Gradle使用
@@ -44,7 +39,7 @@ allprojects {
 在 `app` 的 `build.gradle` 中 添加：
 ```groovy
 dependencies {
-      compile 'com.github.YancyYe:GalleryPick:1.2.1'
+      implementation 'com.github.DacingGo:PhotoPick:1.2.1'
 }
 ```
 
@@ -290,6 +285,3 @@ GalleryPick.getInstance().setGalleryConfig(galleryConfig).open(mActivity);
 ##### 2）
 有些朋友会问，我标题栏设置了白色，但是标题栏的字体和图标也是白色的，那该怎么办？
 下面来讲一下方法，因为是覆盖资源文件，所以在 app 中创建 `gallery_title.xml` , 先将 `GalleryPick` 中的 `gallery_title.xml`   代码copy过去，然后就简单了。将`TextView`的`textColor`中的颜色颜色换一下就好了。同样，返回按钮可以改变一下 `ImageView`的`src`，很简单。
-
-
-### [旧项目地址](https://github.com/YancyYe/ImageSelector)
