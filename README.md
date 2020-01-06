@@ -1,5 +1,5 @@
 项目主要对开源GalleryPick项目进行Android 10适配
-GalleryPick 是 Android 自定义相册，实现了拍照、图片选择（单选/多选）、裁剪、ImageLoader无绑定 任由开发者选择，这个项目原作者是(https://github.com/YancyYe/ImageSelector)
+#### GalleryPick 是 Android 自定义相册，实现了拍照、图片选择（单选/多选）、裁剪、ImageLoader无绑定 任由开发者选择，这个项目原作者是(https://github.com/YancyYe/ImageSelector)
 
 #### 图片展示
 ![功能](https://raw.githubusercontent.com/YancyYe/GalleryPick/master/picture/image_1.jpg) ![多选页面](https://raw.githubusercontent.com/YancyYe/GalleryPick/master/picture/image_2.jpg)
