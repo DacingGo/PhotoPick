@@ -1,12 +1,5 @@
-﻿# GalleryPick 图片选择器 [![](https://jitpack.io/v/YancyYe/GalleryPick.svg)](https://jitpack.io/#YancyYe/GalleryPick)
-
-GalleryPick 是 Android 自定义相册，实现了拍照、图片选择（单选/多选）、裁剪、ImageLoader无绑定 任由开发者选择
-
-##### 各位的 star 就是对我最大的支持。
-
-### [GitHub 项目地址](https://github.com/YancyYe/GalleryPick)
-### [下载 APK](https://raw.githubusercontent.com/YancyYe/GalleryPick/master/apk/GalleryPick.apk)
-
+项目主要对开源GalleryPick项目进行Android 10适配
+GalleryPick 是 Android 自定义相册，实现了拍照、图片选择（单选/多选）、裁剪、ImageLoader无绑定 任由开发者选择，这个项目原作者是(https://github.com/YancyYe/ImageSelector)
 
 #### 图片展示
 ![功能](https://raw.githubusercontent.com/YancyYe/GalleryPick/master/picture/image_1.jpg) ![多选页面](https://raw.githubusercontent.com/YancyYe/GalleryPick/master/picture/image_2.jpg)
@@ -297,55 +290,6 @@ GalleryPick.getInstance().setGalleryConfig(galleryConfig).open(mActivity);
 ##### 2）
 有些朋友会问，我标题栏设置了白色，但是标题栏的字体和图标也是白色的，那该怎么办？
 下面来讲一下方法，因为是覆盖资源文件，所以在 app 中创建 `gallery_title.xml` , 先将 `GalleryPick` 中的 `gallery_title.xml`   代码copy过去，然后就简单了。将`TextView`的`textColor`中的颜色颜色换一下就好了。同样，返回按钮可以改变一下 `ImageView`的`src`，很简单。
-
-
-
-
-
-## 旧版本记录
-### 1.2.0
-* 忽略裁剪图片，返回相机拍摄的照片。
-
-### 1.1.8
-* 优化 `Provider` 防止两个以上 App 使用 `GalleryPick`会出现安装不上的问题。
-（[修改详情](https://github.com/YancyYe/GalleryPick#步骤三设置-provider)）
-
-### 1.1.7
-* 修复android 4.x 打开相机崩溃的bug
-
-### 1.1.6
-* 修复android 7.x 打开相机崩溃的bug
-
-### 1.1.4
-* 优化相册系统。拍摄、裁剪的图片，只有选中时才在相册显示。
-
-### 1.1.3
-* 修改裁剪所存在的bug
-
-### 1.1.2
-* 添加通过覆盖资源的方式，修改截图页面的配色。（[使用方法参考](https://github.com/YancyYe/GalleryPick#三深度自定义ui方法)）
-
-### 1.1.1
-* 修复直接开启相机所存在的问题
-
-### 1.1.0
-* 修复直接开启相机所隐藏的bug
-* 新增裁剪功能。（[使用方法参考](https://github.com/YancyYe/GalleryPick#一裁剪功能使用说明)）
-
-### 1.0.4
-* 应使用者需求添加直接开启相机的方法。 （[使用方法参考](https://github.com/YancyYe/GalleryPick#二直接开启相机其中有三种方法)）
-
-### 1.0.3
-* 提供单选、多选、以及相机拍照功能。
-* 自定义ImageLoader
-
-
-## 感谢（Thanks）
-* 图片裁剪 [UCrop](https://github.com/jdamcd/android-crop)
-
-
-## 关于作者
-* Email: [yancy_world@outlook.com](mailto:yancy_world@outlook.com)
 
 
 ### [旧项目地址](https://github.com/YancyYe/ImageSelector)
