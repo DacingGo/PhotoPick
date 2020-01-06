@@ -32,9 +32,11 @@
 allprojects {
 	repositories {
 		...
-		maven { url "https://jitpack.io" }
+		maven { url 'https://www.jitpack.io' }
 	}
 }
+
+要注意是'https://www.jitpack.io'
 ```
 在 `app` 的 `build.gradle` 中 添加：
 ```groovy
